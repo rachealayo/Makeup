@@ -1,0 +1,278 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.head1 {
+    width: 100%;
+    height: 50px;
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head1wrapper {
+    width: 95%;
+    height: auto;
+    /* background-color: chartreuse; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.twoleft {
+    width: 50%;
+    height: auto;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightnav {
+    width: 10%;
+    height: auto;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    height: 30px;
+    width: 30px;
+}
+.love {
+    height: 20px;
+    width: 20px;
+}
+
+.mid {
+    height: auto;
+    width: 100px;
+    /* background-color: chocolate;  */
+    display: flex;
+    justify-content: center;  
+}
+
+.leftnav {
+    height: auto;
+    width: 25%;
+    /* background-color: cyan; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eng {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.search {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+.cart {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.new {
+    height: 18px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(34, 248, 11);
+    position: relative;
+    bottom: 7%;
+    left: 33%;
+    cursor: pointer;
+    font-size: 10px;
+}
+.hot {
+    height: 18px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(252, 0, 0);
+    position: relative;
+    bottom: 10%;
+    left: 54%;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+.hold {
+    height: 30px;
+    width: 100%;
+    /* background-color: rgb(170, 47, 47); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 30px;
+    width: 95%;
+    background-color: rgba(128, 128, 128, 0.702);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.headerwrapper {
+    height: 30px;
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span {
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.product {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.hero {
+    height: 400px;
+    width: 100%;
+    /* background-color: darkred; */
+    display: flex;
+    justify-content: center;
+}
+.herowrapper {
+    height: 400px;
+    width: 95%;
+    /* background-color: tomato; */
+    background-image: url(./Image/face.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.righthold {
+    height: 400px;
+    width: 50%;
+    /* background-color: dodgerblue; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.in {
+    width: 50%;
+    height: auto;
+    /* background-color: orange; */
+}
+
+.pa {
+    width: 100%;
+    /* background-color: orchid; */
+    margin-top: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+}
+
+.footer {
+    height: 120px;
+    width: 100%;
+    /* background-color: fuchsia; */
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.footerwrap {
+    height: auto;
+    width: 95%;
+    /* background-color: rgb(94, 14, 94); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftfooter {
+    height: auto;
+    width: 48%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lipbalm {
+    width: 150px;
+    height: 120px;
+}
+
+.lipstick {
+    width: 150px;
+    height: 120px;
+}
+.text {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightfooter {
+    height: auto;
+    width: 48%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.liner {
+    width: 150px;
+    height: 120px;
+}
+
+.foun3 {
+    width: 150px;
+    height: 120px;
+}
+.text {
+    /* background-color: rebeccapurple; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
